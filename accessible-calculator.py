@@ -2,9 +2,9 @@ import wx
 from classes import *
 
 def main():
-	w = MainWindow(title="Доступный калькулятор")
 	app = wx.App()
-	w.show(True)
+	w = MainWindow(title="Р”РѕСЃС‚СѓРїРЅС‹Р№ РєР°Р»СЊРєСѓР»СЏС‚РѕСЂ")
+	w.Show(True)
 	app.MainLoop()
 
-if __name__ = "__main__: main()
+if __name__ == "__main__": main()

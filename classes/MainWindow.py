@@ -10,8 +10,8 @@ class MainWindow(wx.Frame):
 		simple = Simple(nb)
 		trig = Trigonometry(nb)
 		
-		nb.AddPage(simple, "Простая арифметика")
-		nb.AddPage(trig, "Тригонометрия")
+		nb.AddPage(simple, "РџСЂРѕСЃС‚Р°СЏ Р°СЂРёС„РјРµС‚РёРєР°")
+		nb.AddPage(trig, "РўСЂРёРіРѕРЅРѕРјРµС‚СЂРёСЏ")
 		
 		sizer = wx.BoxSizer()
 		sizer.Add(nb, 1, wx.EXPAND)
