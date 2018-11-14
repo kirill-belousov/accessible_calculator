@@ -1,6 +1,7 @@
 import wx
-from .simple import Simple
-from .trigonometry import Trigonometry
+from .func import *
+from .simple import *
+from .trigonometry import *
 
 class MainWindow(wx.Frame):
 	def __init__(self, title):
